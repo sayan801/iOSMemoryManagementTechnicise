@@ -22,6 +22,10 @@
 		9F2D59D61CE1D85B00875533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59D31CE1D85B00875533 /* Foundation.framework */; };
 		9F2D59DA1CE1D8BC00875533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D59D81CE1D8BC00875533 /* ViewController.m */; };
 		9F2D59DB1CE1D8BC00875533 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D59D91CE1D8BC00875533 /* ViewController.xib */; };
+		9F2D59DF1CE1DB3E00875533 /* GoogleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D59DD1CE1DB3E00875533 /* GoogleMapViewController.m */; };
+		9F2D59E01CE1DB3E00875533 /* GoogleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D59DE1CE1DB3E00875533 /* GoogleMapViewController.xib */; };
+		9F2D59E41CE1DB7600875533 /* GoogleMapViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D59E21CE1DB7600875533 /* GoogleMapViewController2.m */; };
+		9F2D59E51CE1DB7600875533 /* GoogleMapViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D59E31CE1DB7600875533 /* GoogleMapViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,12 @@
 		9F2D59D71CE1D8BC00875533 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F2D59D81CE1D8BC00875533 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F2D59D91CE1D8BC00875533 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9F2D59DC1CE1DB3E00875533 /* GoogleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapViewController.h; sourceTree = "<group>"; };
+		9F2D59DD1CE1DB3E00875533 /* GoogleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapViewController.m; sourceTree = "<group>"; };
+		9F2D59DE1CE1DB3E00875533 /* GoogleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleMapViewController.xib; sourceTree = "<group>"; };
+		9F2D59E11CE1DB7600875533 /* GoogleMapViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapViewController2.h; sourceTree = "<group>"; };
+		9F2D59E21CE1DB7600875533 /* GoogleMapViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapViewController2.m; sourceTree = "<group>"; };
+		9F2D59E31CE1DB7600875533 /* GoogleMapViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleMapViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,12 @@
 				9F2D59D71CE1D8BC00875533 /* ViewController.h */,
 				9F2D59D81CE1D8BC00875533 /* ViewController.m */,
 				9F2D59D91CE1D8BC00875533 /* ViewController.xib */,
+				9F2D59DC1CE1DB3E00875533 /* GoogleMapViewController.h */,
+				9F2D59DD1CE1DB3E00875533 /* GoogleMapViewController.m */,
+				9F2D59DE1CE1DB3E00875533 /* GoogleMapViewController.xib */,
+				9F2D59E11CE1DB7600875533 /* GoogleMapViewController2.h */,
+				9F2D59E21CE1DB7600875533 /* GoogleMapViewController2.m */,
+				9F2D59E31CE1DB7600875533 /* GoogleMapViewController2.xib */,
 				767B15581CE1C4C000254FBE /* Main.storyboard */,
 				767B155E1CE1C4C000254FBE /* Assets.xcassets */,
 				767B15601CE1C4C000254FBE /* LaunchScreen.storyboard */,
@@ -270,8 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				767B15621CE1C4C000254FBE /* LaunchScreen.storyboard in Resources */,
+				9F2D59E51CE1DB7600875533 /* GoogleMapViewController2.xib in Resources */,
 				767B155F1CE1C4C000254FBE /* Assets.xcassets in Resources */,
 				9F2D59DB1CE1D8BC00875533 /* ViewController.xib in Resources */,
+				9F2D59E01CE1DB3E00875533 /* GoogleMapViewController.xib in Resources */,
 				767B155A1CE1C4C000254FBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				767B15541CE1C4C000254FBE /* AppDelegate.m in Sources */,
+				9F2D59DF1CE1DB3E00875533 /* GoogleMapViewController.m in Sources */,
 				767B155D1CE1C4C000254FBE /* iOSMemoryManagementTechnicise.xcdatamodeld in Sources */,
+				9F2D59E41CE1DB7600875533 /* GoogleMapViewController2.m in Sources */,
 				9F2D59DA1CE1D8BC00875533 /* ViewController.m in Sources */,
 				767B15511CE1C4C000254FBE /* main.m in Sources */,
 			);
