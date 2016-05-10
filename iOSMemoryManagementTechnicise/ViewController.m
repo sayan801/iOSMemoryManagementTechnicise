@@ -35,5 +35,11 @@
 */
 
 - (IBAction)LoadGoogleMap:(id)sender {
+    
+    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.GoogleMapViewController = [[GoogleMapViewController alloc] initWithNibName:@"GoogleMapViewController" bundle:nil];
+    self.window.rootViewController = self.GoogleMapViewController;
+    [self.window makeKeyAndVisible];
 }
 @end

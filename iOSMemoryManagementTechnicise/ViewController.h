@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GoogleMapViewController.h"
+
+@class GoogleMapViewController;
 
 @interface ViewController : UIViewController
+
+
+
+@property (strong, nonatomic) UIWindow *window;
+// The navigation controller.
+@property(strong, nonatomic) UINavigationController *navigationController;
+
+@property (strong, nonatomic) GoogleMapViewController *GoogleMapViewController;
 
 
 - (IBAction)LoadGoogleMap:(id)sender;
