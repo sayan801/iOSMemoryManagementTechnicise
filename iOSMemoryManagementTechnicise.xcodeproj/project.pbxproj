@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		767B15511CE1C4C000254FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B15501CE1C4C000254FBE /* main.m */; };
 		767B15541CE1C4C000254FBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B15531CE1C4C000254FBE /* AppDelegate.m */; };
-		767B15571CE1C4C000254FBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B15561CE1C4C000254FBE /* ViewController.m */; };
 		767B155A1CE1C4C000254FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767B15581CE1C4C000254FBE /* Main.storyboard */; };
 		767B155D1CE1C4C000254FBE /* iOSMemoryManagementTechnicise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 767B155B1CE1C4C000254FBE /* iOSMemoryManagementTechnicise.xcdatamodeld */; };
 		767B155F1CE1C4C000254FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767B155E1CE1C4C000254FBE /* Assets.xcassets */; };
 		767B15621CE1C4C000254FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767B15601CE1C4C000254FBE /* LaunchScreen.storyboard */; };
 		767B156D1CE1C4C000254FBE /* iOSMemoryManagementTechniciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B156C1CE1C4C000254FBE /* iOSMemoryManagementTechniciseTests.m */; };
 		767B15781CE1C4C000254FBE /* iOSMemoryManagementTechniciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B15771CE1C4C000254FBE /* iOSMemoryManagementTechniciseUITests.m */; };
+		9F2D59CE1CE1D84500875533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59CD1CE1D84500875533 /* UIKit.framework */; };
+		9F2D59D01CE1D84D00875533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59CF1CE1D84D00875533 /* CoreData.framework */; };
+		9F2D59D41CE1D85B00875533 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59D11CE1D85B00875533 /* AVFoundation.framework */; };
+		9F2D59D51CE1D85B00875533 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59D21CE1D85B00875533 /* CoreFoundation.framework */; };
+		9F2D59D61CE1D85B00875533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D59D31CE1D85B00875533 /* Foundation.framework */; };
+		9F2D59DA1CE1D8BC00875533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D59D81CE1D8BC00875533 /* ViewController.m */; };
+		9F2D59DB1CE1D8BC00875533 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D59D91CE1D8BC00875533 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,6 @@
 		767B15501CE1C4C000254FBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		767B15521CE1C4C000254FBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		767B15531CE1C4C000254FBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		767B15551CE1C4C000254FBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		767B15561CE1C4C000254FBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		767B15591CE1C4C000254FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		767B155C1CE1C4C000254FBE /* iOSMemoryManagementTechnicise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSMemoryManagementTechnicise.xcdatamodel; sourceTree = "<group>"; };
 		767B155E1CE1C4C000254FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 		767B15731CE1C4C000254FBE /* iOSMemoryManagementTechniciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMemoryManagementTechniciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		767B15771CE1C4C000254FBE /* iOSMemoryManagementTechniciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMemoryManagementTechniciseUITests.m; sourceTree = "<group>"; };
 		767B15791CE1C4C000254FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2D59CD1CE1D84500875533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F2D59CF1CE1D84D00875533 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9F2D59D11CE1D85B00875533 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F2D59D21CE1D85B00875533 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9F2D59D31CE1D85B00875533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F2D59D71CE1D8BC00875533 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F2D59D81CE1D8BC00875533 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F2D59D91CE1D8BC00875533 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2D59D41CE1D85B00875533 /* AVFoundation.framework in Frameworks */,
+				9F2D59D51CE1D85B00875533 /* CoreFoundation.framework in Frameworks */,
+				9F2D59D61CE1D85B00875533 /* Foundation.framework in Frameworks */,
+				9F2D59D01CE1D84D00875533 /* CoreData.framework in Frameworks */,
+				9F2D59CE1CE1D84500875533 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,11 @@
 		767B15431CE1C4C000254FBE = {
 			isa = PBXGroup;
 			children = (
+				9F2D59D11CE1D85B00875533 /* AVFoundation.framework */,
+				9F2D59D21CE1D85B00875533 /* CoreFoundation.framework */,
+				9F2D59D31CE1D85B00875533 /* Foundation.framework */,
+				9F2D59CF1CE1D84D00875533 /* CoreData.framework */,
+				9F2D59CD1CE1D84500875533 /* UIKit.framework */,
 				767B154E1CE1C4C000254FBE /* iOSMemoryManagementTechnicise */,
 				767B156B1CE1C4C000254FBE /* iOSMemoryManagementTechniciseTests */,
 				767B15761CE1C4C000254FBE /* iOSMemoryManagementTechniciseUITests */,
@@ -105,8 +127,9 @@
 			children = (
 				767B15521CE1C4C000254FBE /* AppDelegate.h */,
 				767B15531CE1C4C000254FBE /* AppDelegate.m */,
-				767B15551CE1C4C000254FBE /* ViewController.h */,
-				767B15561CE1C4C000254FBE /* ViewController.m */,
+				9F2D59D71CE1D8BC00875533 /* ViewController.h */,
+				9F2D59D81CE1D8BC00875533 /* ViewController.m */,
+				9F2D59D91CE1D8BC00875533 /* ViewController.xib */,
 				767B15581CE1C4C000254FBE /* Main.storyboard */,
 				767B155E1CE1C4C000254FBE /* Assets.xcassets */,
 				767B15601CE1C4C000254FBE /* LaunchScreen.storyboard */,
@@ -248,6 +271,7 @@
 			files = (
 				767B15621CE1C4C000254FBE /* LaunchScreen.storyboard in Resources */,
 				767B155F1CE1C4C000254FBE /* Assets.xcassets in Resources */,
+				9F2D59DB1CE1D8BC00875533 /* ViewController.xib in Resources */,
 				767B155A1CE1C4C000254FBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767B15571CE1C4C000254FBE /* ViewController.m in Sources */,
 				767B15541CE1C4C000254FBE /* AppDelegate.m in Sources */,
 				767B155D1CE1C4C000254FBE /* iOSMemoryManagementTechnicise.xcdatamodeld in Sources */,
+				9F2D59DA1CE1D8BC00875533 /* ViewController.m in Sources */,
 				767B15511CE1C4C000254FBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +524,7 @@
 				767B157E1CE1C4C000254FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		767B157F1CE1C4C000254FBE /* Build configuration list for PBXNativeTarget "iOSMemoryManagementTechniciseTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +533,7 @@
 				767B15811CE1C4C000254FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		767B15821CE1C4C000254FBE /* Build configuration list for PBXNativeTarget "iOSMemoryManagementTechniciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +542,7 @@
 				767B15841CE1C4C000254FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "ViewController.h"
+
+@class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -19,6 +22,12 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+
+// The navigation controller.
+@property(strong, nonatomic) UINavigationController *navigationController;
+
+@property (strong, nonatomic) ViewController *ViewController;
 
 
 @end

@@ -2,7 +2,7 @@
 //  ViewController.h
 //  iOSMemoryManagementTechnicise
 //
-//  Created by chandra shekhar sengupta on 10/05/16.
+//  Created by Souman Paul on 5/10/16.
 //  Copyright © 2016 chandra shekhar sengupta. All rights reserved.
 //
 
@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 
 
-@end
+- (IBAction)LoadGoogleMap:(id)sender;
 
+
+@end
